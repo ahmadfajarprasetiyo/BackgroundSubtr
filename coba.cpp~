@@ -30,7 +30,7 @@ int main(int argc, char* argv[]){
                 temp=abs((int)back.at<Vec3b>(y,x)[0]-(int)img.at<Vec3b>(y,x)[0])+temp;
                 temp=abs((int)back.at<Vec3b>(y,x)[1]-(int)img.at<Vec3b>(y,x)[1])+temp;
                 temp=abs((int)back.at<Vec3b>(y,x)[2]-(int)img.at<Vec3b>(y,x)[2])+temp;
-								if(temp<50){
+								if(temp<40){
 									img.at<Vec3b>(y,x)[0]=0;
 									img.at<Vec3b>(y,x)[1]=0;
 									img.at<Vec3b>(y,x)[2]=0;

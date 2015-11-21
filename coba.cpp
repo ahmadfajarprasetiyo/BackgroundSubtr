@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char* argv[]){
 	VideoCapture cap;
-	cap.open(1);
+	cap.open(0);
 	Mat img;
 	bool bSuccess;
 	Mat back;
